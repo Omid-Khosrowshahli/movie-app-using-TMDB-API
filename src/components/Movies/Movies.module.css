@@ -1,0 +1,29 @@
+.allMovies {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+}
+
+.searchAndBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 85px;
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.searchAndBtns input {
+  border: none;
+  background-color: #888;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.searchAndBtns input::placeholder {
+  color: white;
+}
+

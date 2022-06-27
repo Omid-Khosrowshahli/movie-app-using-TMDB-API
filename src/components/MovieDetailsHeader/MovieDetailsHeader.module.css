@@ -1,0 +1,46 @@
+.container {
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+
+.container>span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.poster {
+    width: 280px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.posterContainer {
+    height: 70%;
+}
+
+.content {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding: 30px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.layout {
+  width: 100vw;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 0 35px;
+}
+
+.layout h1 {
+  color: red;
+}
+
+.layout input {
+  border: none;
+  background-color: #555;
+  padding: 8px;
+  border-radius: 8px;
+  outline: none;
+  color: white;
+}

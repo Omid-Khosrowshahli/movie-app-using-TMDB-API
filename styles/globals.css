@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #333;
 }
 
 a {
@@ -13,4 +14,68 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.movie {
+  background-color: #555;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.movie img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.movie p {
+  height: 24px;
+}
+
+.movie div {
+  display: flex;
+  justify-content: space-between;
+}
+.btns {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: #555;
+}
+
+.selected-btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  background-color: red;
+}
+
+.movie-tv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+}
+
+.movie-tv span {
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.slider-btns {
+  background-color: #555;
+  padding: 15px;
+  border-radius: 5px;
 }
