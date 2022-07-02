@@ -30,7 +30,7 @@ const Movies = () => {
     }
     if (active === 'top-rated') {
       searchedMoviesList = topRatedMovies.data?.data?.results?.filter((item) => {
-        return item.title.toUpperCase().includes(s.toUpperCase())
+        return item.title.toUpperCase().includes(s.toUpperCase());
       }
       )
     }
@@ -51,7 +51,7 @@ const Movies = () => {
 
   useEffect(() => {
     searchMovie(search)
-  }, [search]);
+  }, [search, active]);
   
   return (
     <div>

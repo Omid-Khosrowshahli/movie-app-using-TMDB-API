@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content input {
+  outline: none;
+}
+
+.modalSearchResults {
+  display: flex;
+  flex-flow: row-wrap;
+}

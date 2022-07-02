@@ -1,6 +1,6 @@
 const imagePath = "https://image.tmdb.org/t/p/w500";
 
-const Cast = ({ data }) => {
+const CastItem = ({ data }) => {
   return (
     <div className="movie">
       <img src={`${imagePath}${data.profile_path}`} />
@@ -9,4 +9,4 @@ const Cast = ({ data }) => {
   );
 };
 
-export default Cast;
+export default CastItem;
